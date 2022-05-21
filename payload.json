@@ -1,0 +1,24 @@
+{
+  "sender_mail": "sender@domain.tld",
+  "sender_name": "Sender Name",
+  "recipients": [
+    {
+      "type": "RECIPIENT",
+      "email": "recipient@domain.tld",
+      "name": "Recipient Name"
+    },
+    {
+      "type": "CC",
+      "email": "tembusan@domain.tld",
+      "name": ""
+    }
+  ],
+  "reply_email": "",
+  "subject": "Judul email",
+  "body_html": "<html><body>Ini email versi HTML</body></html>",
+  "body_text": "Ini email versi text biasa.",
+  "attachments": [
+    "s3://download.disini/aja/filenya.zip",
+    "https://ini.blob.com/yang/ke2.txt"
+  ]
+}
